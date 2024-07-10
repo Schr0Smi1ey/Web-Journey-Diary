@@ -216,3 +216,59 @@ body {
     text-align: center;
 }
 
+
+/* Inspiration Section Styles */
+
+.inspiration {
+    width: 1140px;
+    height: 775px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    margin: 85px 149px;
+    align-items: center;
+    gap: 48px;
+}
+
+.inspiration-details {
+    width: 852px;
+    height: 113px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid red;
+}
+
+.inspiration-title {
+    width: 100%;
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+    border: 2px solid red;
+}
+
+.inspiration-description {
+    width: 100%;
+    color: rgb(13, 19, 33,0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+
+.inspiration-content {
+    max-width: 1140px;
+    max-height: 614px;
+    border: 2px solid red;
+}
+
+.inspiration-content iframe {
+    width: 1076px;
+    height: 550px;
+    padding: 32px;
+    border-radius: 16px;
+}
+
